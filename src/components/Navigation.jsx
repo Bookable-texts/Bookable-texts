@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/Navigation.css'
+import { Link } from 'react-router-dom'
 
 function Navigation() {
   return (
@@ -11,11 +12,11 @@ function Navigation() {
           </div>
           <div className="nav_links">
             <ul>
-              <li className="nav_link">Home</li>
-              <li className="nav_link">My dashboard</li>
-              <li className="nav_link">Books</li>
-              <li className="nav_link btn btn_primary">Sign up</li>
-              <li className="nav_link btn btn_secondary">Login</li>
+              <Link to={`/`}><li className="nav_link">Home</li></Link>
+              <Link to={`/dashboard`}><li className="nav_link">My dashboard</li></Link>
+              <Link to={`/books`}><li className="nav_link">Books</li></Link>
+              <Link to={`/signup`}><li className="nav_link btn btn_primary">Sign up</li></Link>
+              <Link to={`/login`}><li className="nav_link btn btn_secondary">Login</li></Link>
             </ul>
           </div>
         </div>
