@@ -7,7 +7,7 @@ function Navigation() {
       <div className="container">
         <div className="nav">
           <div className="brand">
-            <h2 className="logo">Bookable texts.</h2>
+            <h2 className="logo">Bookable texts<span className="text_secondary">.</span></h2>
           </div>
           <div className="nav_links">
             <ul>

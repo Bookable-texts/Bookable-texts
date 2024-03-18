@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Fredericka+the+Great&family=Open+Sans&display=swap');
+
+.logo {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navigation {
+    height: 80px;
+    padding: auto 0;
+
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav ul li:hover {
+    border-bottom: 1px solid var(--primary);
+}
