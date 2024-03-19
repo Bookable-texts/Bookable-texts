@@ -10,7 +10,7 @@ function Navigation() {
         <div className="nav">
           <div className="brand">
             <h2 className="logo">
-              <img src={logo} alt="Logo" width={120} height={80} className='logo'/>
+              <Link to={`/`}><img src={logo} alt="Logo" width={120} height={80} className='logo'/></Link>
             </h2>
           </div>
           <div className="nav_links">
