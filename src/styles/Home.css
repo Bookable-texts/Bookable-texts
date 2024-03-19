@@ -1,0 +1,19 @@
+.hero {
+    max-height: 100vh !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+}
+.hero_grid .content {
+    margin: auto 0;
+}
+.image img {
+    width: 100%;
+    object-fit: contain;
+}
