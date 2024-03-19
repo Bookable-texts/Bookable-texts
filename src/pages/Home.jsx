@@ -3,6 +3,7 @@ import heroImage from '../../public/hero.svg'
 import { Link } from 'react-router-dom'
 import '../styles/Home.css'
 import readingAvatar from '../../public/Reading_avatar.svg'
+import Grid from '../components/ui/Grid'
 
 function Home() {
   return (
@@ -31,9 +32,10 @@ function Home() {
     </section>
 
     {/* hero section */}
+
     <section className="about bg_ghostwhite" id="about">
       <div className="container text_centered">
-        <h2 className="heading">Who are we <br /> And what do we do?</h2>
+        <h2 className="heading heading_large">Who are we <br /> And what do we do?</h2>
         <p className="subheading">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem?
         </p>
@@ -69,6 +71,33 @@ function Home() {
             </div>
           </div>
         </div>
+      </div>
+    </section>
+
+    {/* More info section */}
+
+    <section className="more_information" id="more_information">
+      <div className="container">
+
+        <div className="grid_container">
+          <Grid
+            direction={'left'}
+            img_src={readingAvatar}
+            link_to={`/textbooks`}
+            title={'Lorem ipsum dolor sit amet.'}
+            paragraph={`Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, quos! Odit adipisci aut excepturi voluptatum odio facilis reprehenderit! Laudantium, atque numquam. Eius atque laborum sed autem, ducimus odit reiciendis recusandae in ipsum nam optio, hic ad porro non dolore quibusdam eaque delectus illum quam obcaecati quas veniam quisquam. Deserunt placeat ipsa explicabo odio ex dolore vero officiis ad, velit enim commodi neque repellendus, ducimus error ab quis hic. Dolorum rem quas recusandae totam fugit? Exercitationem, nisi dicta?`}
+            button_text={'See textbooks'}
+          />
+          <Grid
+            direction={'right'}
+            img_src={readingAvatar}
+            link_to={`/textbooks`}
+            title={'Lorem ipsum dolor sit amet.'}
+            paragraph={`Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, quos! Odit adipisci aut excepturi voluptatum odio facilis reprehenderit! Laudantium, atque numquam. Eius atque laborum sed autem, ducimus odit reiciendis recusandae in ipsum nam optio, hic ad porro non dolore quibusdam eaque delectus illum quam obcaecati quas veniam quisquam. Deserunt placeat ipsa explicabo odio ex dolore vero officiis ad, velit enim commodi neque repellendus, ducimus error ab quis hic. Dolorum rem quas recusandae totam fugit? Exercitationem, nisi dicta?`}
+            button_text={'See textbooks'}
+          />
+        </div>
+
       </div>
     </section>
     </>
