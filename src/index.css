@@ -32,7 +32,7 @@ section {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1204px;
     margin: 0 auto;
     padding: 0 30px;
 }
@@ -64,7 +64,7 @@ section {
     border: 1px solid var(--secondary);
 }
 .btn_secondary:hover {
-    font-weight: bold;
+    background: #5a6bff20;
 }
 
 
