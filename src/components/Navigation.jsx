@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/Navigation.css'
 import { Link } from 'react-router-dom'
+import logo from '../../public/Logo.svg'
 
 function Navigation() {
   return (
@@ -8,7 +9,9 @@ function Navigation() {
       <div className="container">
         <div className="nav">
           <div className="brand">
-            <h2 className="logo">Bookable texts<span className="text_secondary">.</span></h2>
+            <h2 className="logo">
+              <img src={logo} alt="Logo" width={120} height={80} className='logo'/>
+            </h2>
           </div>
           <div className="nav_links">
             <ul>
