@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Navigation.css'
 import { Link } from 'react-router-dom'
-import logo from '../../public/Logo.svg'
+import logo from '/Logo.svg'
 
 function Navigation() {
   return (

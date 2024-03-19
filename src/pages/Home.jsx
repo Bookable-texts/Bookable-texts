@@ -2,10 +2,14 @@ import React from 'react'
 import heroImage from '../../public/hero.svg'
 import { Link } from 'react-router-dom'
 import '../styles/Home.css'
+import readingAvatar from '../../public/Reading_avatar.svg'
 
 function Home() {
   return (
-    <section className="hero" id='hero'>
+    <>
+    {/* hero section */}
+
+      <section className="hero" id='hero'>
       <div className="container">
         <div className="hero_grid">
           <div className="image">
@@ -25,6 +29,50 @@ function Home() {
         </div>
       </div>
     </section>
+
+    {/* hero section */}
+    <section className="about bg_ghostwhite" id="about">
+      <div className="container text_centered">
+        <h2 className="heading">Who are we <br /> And what do we do?</h2>
+        <p className="subheading">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem?
+        </p>
+        <div className="cards">
+          <div className="card">
+            <div className="img_head">
+              <img src={readingAvatar} alt="Card header image" />
+            </div>
+            <div className="card_content">
+              <p className="paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio porro tenetur ab saepe voluptatum quo sequi maxime consequatur, magnam illo mollitia quod enim officia soluta repudiandae iste ratione qui ducimus.
+              </p>
+            </div>
+          </div>
+          <div className="card">
+            <div className="img_head">
+              <img src={readingAvatar} alt="Card header image" />
+            </div>
+            <div className="card_content">
+              <p className="paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio porro tenetur ab saepe voluptatum quo sequi maxime consequatur, magnam illo mollitia quod enim officia soluta repudiandae iste ratione qui ducimus.
+              </p>
+            </div>
+          </div>
+          <div className="card">
+            <div className="img_head">
+              <img src={readingAvatar} alt="Card header image" />
+            </div>
+            <div className="card_content">
+              <p className="paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio porro tenetur ab saepe voluptatum quo sequi maxime consequatur, magnam illo mollitia quod enim officia soluta repudiandae iste ratione qui ducimus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </>
+    
   )
 }
 

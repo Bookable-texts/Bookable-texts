@@ -19,11 +19,22 @@ a {
 }
 
 .title {
-    font-family: "DM Serif Display", serif;
+  font-family: "DM Serif Display", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 42px;
   margin: 0;
+}
+
+.heading {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.subheading {
+    font-size: 18px;
 }
 
 section {
@@ -35,6 +46,10 @@ section {
     max-width: 1204px;
     margin: 0 auto;
     padding: 0 30px;
+}
+
+.paragraph {
+    line-height: 22px;
 }
 
 /********* UI components *********/
@@ -68,11 +83,59 @@ section {
 }
 
 
-/********* colors *********/
+/********* text colors *********/
 .text_primary {
     color: var(--primary) !important;
 }
 
 .text_secondary {
     color: var(--secondary) !important;
+}
+
+
+/********* background colors *********/
+.bg_ghostwhite {
+    background-color: ghostwhite;
+}
+
+/********* utility classes *********/
+.text_centered {
+    text-align: center;
+}
+
+.text_start {
+    text-align: start;
+}
+
+.text_end {
+    text-align: end;
+}
+
+.text_semi_bold {
+    font-weight:500;
+}
+
+.text_bold {
+    font-weight: 900;
+}
+
+.text_light {
+    font-weight: lighter;
+}
+
+.cards {
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+
+.card {
+    padding: 10px 30px;
+}
+
+.card .img_head img {
+    width: 50%;
+    margin: 0 auto;
 }
