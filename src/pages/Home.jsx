@@ -100,7 +100,7 @@ function Home() {
             link_to={`/contact`}
             title={'24/7 Support When You Need It:'}
             paragraph={`At Bookable Texts, we prioritize your success and satisfaction every step of the way. That's why we're proud to offer round-the-clock support to our valued users. Whether you're navigating our platform for the first time or encountering a challenge with your textbook rental, our dedicated support team is here to assist you. With prompt responses and personalized guidance, we're committed to ensuring that your experience with Bookable Texts is seamless and stress-free. Need help finding a specific textbook? Interested in learning more about our rental options? Simply reach out to us at any time, and we'll be more than happy to lend a helping hand. With Bookable Texts, you're never alone on your educational journey.`}
-            button_text={'See textbooks'}
+            
           />
         </div>
 
@@ -112,7 +112,7 @@ function Home() {
         <div className="cta text_centered">
           <h3 className=" heading heading_small">Try Bookable texts today</h3>
           <p className="paragraph">Sign up today and see the awesomeness we have to offer here at Bookable texts</p>
-          <Link className="btn btn_primary" to="">Sign up</Link>
+          <Link className="btn btn_primary" to="/register">Sign up</Link>
         </div>
       </div>
     </section>

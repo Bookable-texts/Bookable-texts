@@ -15,7 +15,9 @@ function Grid({ direction, img_src, link_to, title, paragraph, button_text}) {
               <p className="paragraph">
                 {paragraph}
               </p>
-              <Link to={link_to} className="btn btn_primary">{button_text}</Link>
+              { button_text ? (
+                <Link to={link_to} className="btn btn_primary">{button_text}</Link>
+              ): (<></>)}
             </div>
           </div>
         ): (
@@ -25,7 +27,9 @@ function Grid({ direction, img_src, link_to, title, paragraph, button_text}) {
               <p className="paragraph">
                 {paragraph}
               </p>
-              <Link to={link_to} className="btn btn_primary">{button_text}</Link>
+              { button_text ? (
+                <Link to={link_to} className="btn btn_primary">{button_text}</Link>
+              ): (<></>)}
             </div>
             <div className="image_container">
               <img src={img_src}/>
