@@ -18,3 +18,10 @@
     width: 80%;
     object-fit: contain;
 }
+.cta {
+    padding: 60px 30px;
+    background-color: rgb(192, 192, 192);
+    color: #000;
+    border-radius: 20px;
+    
+}

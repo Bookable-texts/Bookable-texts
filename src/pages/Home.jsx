@@ -106,6 +106,16 @@ function Home() {
 
       </div>
     </section>
+    
+    <section className="call_to_action" id="call_to_action">
+      <div className="container">
+        <div className="cta text_centered">
+          <h3 className=" heading heading_small">Try Bookable texts today</h3>
+          <p className="paragraph">Sign up today and see the awesomeness we have to offer here at Bookable texts</p>
+          <Link className="btn btn_primary" to="">Sign up</Link>
+        </div>
+      </div>
+    </section>
     </>
     
   )
