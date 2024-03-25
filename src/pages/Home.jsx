@@ -52,7 +52,7 @@ function Home() {
             </div>
             <div className="card_content">
               <p className="paragraph">
-              At Bookable Texts, we understand the importance of having access to a comprehensive range of textbooks. That's why our platform ensures that students can find all the textbooks they need for their courses conveniently in one place. Say goodbye to the frustration of searching far and wide for required reading materials. With Bookable Texts, everything you need is just a click away.
+                We understand the importance of having access to a comprehensive range of textbooks. That's why our platform ensures that students can find all the textbooks they need for their courses conveniently in one place.
               </p>
             </div>
           </div>
@@ -62,7 +62,7 @@ function Home() {
             </div>
             <div className="card_content">
               <p className="paragraph">
-                We believe that education should be accessible to everyone, regardless of their financial circumstances. That's why we've made affordability a cornerstone of our platform. With competitive pricing and flexible rental options, Bookable Texts makes it easy for students to access the textbooks they need without breaking the bank. Say hello to significant savings and goodbye to sky-high textbook prices.
+                We believe that education should be accessible to everyone, regardless of their financial circumstances. That's why we've made affordability a cornerstone of our platform. With competitive pricing and flexible rental options, We make it easy for you to access the textbooks you need without breaking the bank.
               </p>
             </div>
           </div>
@@ -72,7 +72,7 @@ function Home() {
             </div>
             <div className="card_content">
               <p className="paragraph">
-              We understand that circumstances can change, and plans may need to be adjusted. That's why we've made cancellation hassle-free and straightforward. With Bookable Texts, you're in control of your rentals. Whether your course requirements shift or you no longer need a particular textbook, cancelling your rental is quick and painless. No stress, no fuss—just seamless flexibility.
+              We understand that circumstances can change, and plans may need to be adjusted. That's why we've made cancellation hassle-free and straightforward. With us, you're in control of your rentals. Whether your course requirements shift or you no longer need a particular textbook, cancelations are quick and painless.
               </p>
             </div>
           </div>
