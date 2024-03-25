@@ -91,7 +91,7 @@ function Home() {
             img_src={textbookSelectionImage}
             link_to={`/textbooks`}
             title={'Textbook Selection Made Easy:'}
-            paragraph={`Embark on a journey of academic exploration with Bookable Texts. Our platform boasts a vast and meticulously curated selection of textbooks, covering a wide array of subjects and disciplines. Whether you're delving into the realms of literature, exploring the depths of science, or dissecting the intricacies of mathematics, you'll find precisely what you need to excel in your studies. From foundational texts to advanced readings, we're committed to providing students with access to the resources they need to succeed. Say goodbye to the frustration of scouring multiple sources for required reading materials. With Bookable Texts, your textbook selection process has never been easier or more comprehensive.`}
+            paragraph={`Embark on a journey of academic exploration with Bookable Texts. Our platform boasts a vast and meticulously curated selection of textbooks, covering a wide array of subjects and disciplines. Whether you're delving into the realms of literature, exploring the depths of science, or dissecting the intricacies of mathematics, you'll find precisely what you need to excel in your studies. From foundational texts to advanced readings, we're committed to providing students with access to the resources they need to succeed.`}
             button_text={'See textbooks'}
           />
           <Grid
@@ -99,7 +99,7 @@ function Home() {
             img_src={supportImage}
             link_to={`/contact`}
             title={'24/7 Support When You Need It:'}
-            paragraph={`At Bookable Texts, we prioritize your success and satisfaction every step of the way. That's why we're proud to offer round-the-clock support to our valued users. Whether you're navigating our platform for the first time or encountering a challenge with your textbook rental, our dedicated support team is here to assist you. With prompt responses and personalized guidance, we're committed to ensuring that your experience with Bookable Texts is seamless and stress-free. Need help finding a specific textbook? Interested in learning more about our rental options? Simply reach out to us at any time, and we'll be more than happy to lend a helping hand. With Bookable Texts, you're never alone on your educational journey.`}
+            paragraph={`At Bookable Texts, we prioritize your success and satisfaction every step of the way. That's why we're proud to offer round-the-clock support to our valued users. Whether you're navigating our platform for the first time or encountering a challenge with your textbook rental, our dedicated support team is here to assist you. With prompt responses and personalized guidance, we're committed to ensuring that your experience with Bookable Texts is seamless and stress-free. Simply reach out to us at any time, and we'll be more than happy to lend a helping hand. With Bookable Texts, you're never alone on your educational journey.`}
             
           />
         </div>
