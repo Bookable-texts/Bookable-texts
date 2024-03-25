@@ -25,7 +25,7 @@ function Home() {
           <div className="content">
               <h1 className="title">Unlocking the Doors to Affordable Education</h1>
               <p className="paragraph">
-              Welcome to Bookable Texts, where we're revolutionizing the way students access textbooks. Say goodbye to the burdensome costs that come with buying textbooks outright. With Bookable Texts, we're on a mission to democratize education by making textbooks accessible to students from all walks of life. Our innovative platform allows bookstores to rent out their textbooks to university students at prices that won't break the bank. Get ready to embark on your academic journey without the financial barriers that often accompany higher education.
+              Welcome to Bookable Texts, where we're revolutionizing the way students access textbooks. Say goodbye to the burdensome costs that come with buying textbooks outright. With Bookable Texts, we're on a mission to democratize education by making textbooks accessible to students from all walks of life. Our innovative platform allows bookstores to rent out their textbooks to university students at prices that won't break the bank.
               </p>
               <div className="buttons">
                 <Link to={`/books`} className="btn btn_primary">Find textbooks</Link>
