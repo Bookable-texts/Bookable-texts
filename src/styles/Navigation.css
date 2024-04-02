@@ -118,4 +118,7 @@
         text-align: start;
         padding-left: 30px;
     }
+    .nav ul li:hover {
+      border-bottom: 0;
+  }
 }
