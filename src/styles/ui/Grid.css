@@ -30,3 +30,13 @@
     grid-template-columns: 7fr 5fr;
 }
 
+@media screen and (max-width: 700px) {
+    .grid_left, .grid_right {
+        grid-template-columns: 1fr;
+    }
+    .grid_right .content {
+        order: 2;
+    }
+    
+}
+
