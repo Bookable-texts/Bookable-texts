@@ -120,5 +120,6 @@
     }
     .nav ul li:hover {
       border-bottom: 0;
+      color: var(--primary);
   }
 }
