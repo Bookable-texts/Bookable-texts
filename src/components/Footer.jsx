@@ -34,7 +34,7 @@ const Footer = () => {
 
           
         </div>
-        <div className="line margin_top_large margin_bottom_large"></div>
+        <div className="line_footer margin_top_large margin_bottom_large"></div>
 
         <p>
           

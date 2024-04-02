@@ -37,7 +37,7 @@ function Home() {
       </div>
     </section>
 
-    {/* hero section */}
+    {/* About section */}
 
     <section className="about bg_ghostwhite" id="about">
       <div className="container text_centered">
