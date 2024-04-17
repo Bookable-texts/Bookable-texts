@@ -190,7 +190,9 @@ section {
     height: 1px;
     background-color: #fff;
 }
-
+.center {
+    text-align: center;
+}
 @media screen and (max-width: 900px) {
     .cards {
         grid-template-columns: 1fr 1fr;
