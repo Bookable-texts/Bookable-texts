@@ -8,8 +8,8 @@ function Navigation_large() {
             <Link to={`/`}><li className="nav_link">Home</li></Link>
             <Link to={`/dashboard`}><li className="nav_link">My dashboard</li></Link>
             <Link to={`/books`}><li className="nav_link">Books</li></Link>
-            <Link to={`/signin`}><li className="nav_link btn btn_primary">Sign in</li></Link>
-            <Link to={`/login`}><li className="nav_link btn btn_secondary">Login</li></Link>
+            <Link to={`/signin`}><li className="nav_link btn btn_secondary">Sign in</li></Link>
+            <Link to={`/login`}><li className="nav_link btn btn_primary">Sign up</li></Link>
         </ul>
     </div>
   )

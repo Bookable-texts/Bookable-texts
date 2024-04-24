@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../styles/Signin.css'
+import { Link } from 'react-router-dom'
 
 function SignIn() {
 
@@ -21,7 +22,13 @@ function SignIn() {
                       onChange={(e) => setPassword(e.target.value)}
                     />
                     <button className="btn btn_primary btn_medium">Sign in</button>
+                    <br /><br />
+                    <span className="text_primary text_start margin_top_medium">
+                  <Link className="" to={'/register'}>Don't have an account yet? Register now.</Link>
+                </span>
                 </form>
+
+                
             </div>
         </section>
     </>
