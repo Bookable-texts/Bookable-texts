@@ -9,7 +9,7 @@ function SignIn() {
   const [ password, setPassword ] = useState('')
   return (
     <>
-        <section id="sign_up" className="sign_up">
+        <section id="sign_up" className="sign_up padding_xxxl">
             <div className="container text_centered">
                 <h2 className="heading heading_medium">Welcome back</h2>
 
@@ -20,7 +20,7 @@ function SignIn() {
                     <input type="password" className='width_80_centered' placeholder='password' value={password}
                       onChange={(e) => setPassword(e.target.value)}
                     />
-                    <button className="btn btn_primary">Sign in</button>
+                    <button className="btn btn_primary btn_medium">Sign in</button>
                 </form>
             </div>
         </section>

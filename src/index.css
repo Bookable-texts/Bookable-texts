@@ -115,6 +115,18 @@ section {
     background: #5a6bff20;
 }
 
+.btn_medium {
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.btn_large {
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: large;
+}
+
 
 /********* text colors *********/
 .text_primary {
@@ -179,6 +191,9 @@ section {
 .margin_bottom_small {
     margin-top: 10px;
 }
+.padding_xxxl {
+    padding: 180px 0;
+}
 
 .width_80_centered {
     width: 80%;
@@ -194,7 +209,6 @@ section {
     width: 50%;
     margin: 0 25%;
 }
-
 
 .cards {
     margin-top: 90px;

@@ -21,7 +21,7 @@ function Navigation_mobile() {
         <Link to={`/`}><li className="nav_link">Home</li></Link>
             <Link to={`/dashboard`}><li className="nav_link">My dashboard</li></Link>
             <Link to={`/books`}><li className="nav_link">Books</li></Link>
-            <Link to={`/signin`}><li className="nav_link">Sign up</li></Link>
+            <Link to={`/signin`}><li className="nav_link">Sign in</li></Link>
             <Link to={`/login`}><li className="nav_link">Login</li></Link>
             {/* Add more links as needed */}
         </ul>
