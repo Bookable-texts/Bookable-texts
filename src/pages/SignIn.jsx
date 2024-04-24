@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import '../styles/Signin.css'
 
 function SignIn() {
 
@@ -9,14 +10,14 @@ function SignIn() {
   return (
     <>
         <section id="sign_up" className="sign_up">
-            <div className="container">
+            <div className="container text_centered">
                 <h2 className="heading heading_medium">Welcome back</h2>
 
-                <form className='signin_form'>
-                    <input type="email" placeholder='email' value={email}
+                <form className='signin_form width_80_centered'>
+                    <input type="email" className='width_80_centered' placeholder='email' value={email}
                       onChange={(e) => setEmail(e.target.value)}
                     />
-                    <input type="password" placeholder='password' value={password}
+                    <input type="password" className='width_80_centered' placeholder='password' value={password}
                       onChange={(e) => setPassword(e.target.value)}
                     />
                     <button className="btn btn_primary">Sign in</button>
