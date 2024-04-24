@@ -6,7 +6,7 @@ import Home from './pages/Home'
 import NotFound from './pages/NotFound'
 import Navigation from './components/Navigation'
 import Footer from './components/Footer'
-import SignIn from './pages/SignUp'
+import SignIn from './pages/SignIn'
 import Register from './pages/Register'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
